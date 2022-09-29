@@ -1,10 +1,10 @@
 .excreiece-container {
     width: 300px;
     height: 650px;
-    border: 2px solid gray;
     padding: 10px;
     border-radius: 10px;
     position: relative;
+    background-color: #fff;
 }
 
 .excreiece-container img {
@@ -20,7 +20,8 @@
     width: 100%;
     padding: 10px;
     font-size: 18px;
-    background-color: rgb(38, 38, 203);
+    background-color: #08CFFF;
+    color: #fff;
     border: none;
     border-radius: 0px 0px 10px 10px;
     position: absolute;

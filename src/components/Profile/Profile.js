@@ -4,7 +4,7 @@ import profile from '../../images/profile.jpg';
 
 const Profile = () => {
     return (
-        <div className='profile'>
+        <div>
             <div >
                 <div className='profile-container'>
                     <img src={profile} alt="" />

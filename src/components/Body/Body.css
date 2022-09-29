@@ -1,7 +1,7 @@
 .main-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: rgb(202, 203, 205);
+    background-color: rgb(222, 223, 226);
 }
 
 .body-container {
@@ -16,4 +16,9 @@
 
     padding: 20px;
     background-color: #fff;
+}
+
+.select-today {
+    width: 80%;
+    margin: 0 auto 30px;
 }

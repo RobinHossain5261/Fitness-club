@@ -4,16 +4,17 @@
 
 .time-container h3 {
     padding: 20px;
-    background-color: gray;
+    background-color: rgb(222, 223, 226);
     border-radius: 10px;
 }
 
 .time-container button {
     padding: 20px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: #08CFFF;
     font-size: 18px;
     margin-top: 30px;
     border: none;
     width: 100%;
+    color: #fff;
 }
