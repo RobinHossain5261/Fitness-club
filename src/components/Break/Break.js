@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Break.css';
 
-const Break = (props) => {
+const Break = () => {
 
     const [time, setTime] = useState(0);
     const breakTime = (e) => {
@@ -18,9 +18,7 @@ const Break = (props) => {
                 <button onClick={breakTime}>40s</button>
                 <button onClick={breakTime}>50s</button>
             </div>
-            <p>{time}</p>
-
-
+            <h3>Break time:{time}</h3>
         </div>
     );
 };

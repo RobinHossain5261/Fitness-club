@@ -18,3 +18,9 @@
 .break-time button:focus {
     background-color: #08CFFF;
 }
+
+.break-container h3 {
+    padding: 20px;
+    background-color: rgb(222, 223, 226);
+    border-radius: 10px;
+}

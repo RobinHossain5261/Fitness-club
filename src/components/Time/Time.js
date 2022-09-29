@@ -20,7 +20,7 @@ const Time = ({ time }) => {
         <div className='time-container'>
             <h1>Exercise Details</h1>
             <h3>Exercise time:{total}</h3>
-            <h3>Break time:</h3>
+
 
             <div>
                 <button onClick={notify}>Activity Completed</button>
