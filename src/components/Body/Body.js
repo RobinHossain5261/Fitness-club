@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import Break from '../Break/Break';
 import Excreiece from '../Excreiece/Excreiece';
+import Profile from '../Profile/Profile';
 
 import './Body.css';
 
@@ -23,7 +25,8 @@ const Body = () => {
                 }
             </div>
             <div className="info-container">
-                <h1>Info container</h1>
+                <Profile></Profile>
+                <Break></Break>
             </div>
         </div>
     );
