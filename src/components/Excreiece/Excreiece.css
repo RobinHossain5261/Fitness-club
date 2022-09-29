@@ -1,7 +1,10 @@
 .excreiece-container {
     width: 300px;
+    height: 650px;
     border: 2px solid gray;
     padding: 10px;
+    border-radius: 10px;
+    position: relative;
 }
 
 .excreiece-container img {
@@ -11,4 +14,20 @@
 
 .title {
     color: gray;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(38, 38, 203);
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.add-btn:focus {
+    background-color: green;
 }

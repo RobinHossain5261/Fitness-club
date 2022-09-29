@@ -10,6 +10,7 @@ const Excreiece = (props) => {
             <p className='title'>{title}</p>
             <p>For Age: {age}</p>
             <p>Time required: {time}s</p>
+            <button className='add-btn'>Add to list</button>
         </div>
     );
 };
