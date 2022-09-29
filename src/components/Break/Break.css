@@ -1,16 +1,20 @@
-.break-container {}
-
 .break-time {
     display: flex;
     justify-content: space-evenly;
     background-color: gray;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.break-time h3 {
+.break-time button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background-color: white;
-    text-align: center;
+    border: none;
+
+
+
 
 }

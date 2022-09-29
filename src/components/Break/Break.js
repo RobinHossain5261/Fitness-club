@@ -6,11 +6,12 @@ const Break = () => {
         <div className='break-container'>
             <h1>Add A Break</h1>
             <div className='break-time'>
-                <h3>10s</h3>
-                <h3>20s</h3>
-                <h3>30s</h3>
-                <h3>40s</h3>
-                <h3>50s</h3>
+                <button>10s</button>
+                <button>20s</button>
+                <button>30s</button>
+                <button>40s</button>
+                <button>50s</button>
+
             </div>
 
         </div>
