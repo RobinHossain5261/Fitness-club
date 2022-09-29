@@ -1,6 +1,8 @@
 import React from 'react';
 import './Profile.css';
 import profile from '../../images/profile.jpg';
+import Break from '../Break/Break';
+import Time from '../Time/Time';
 
 const Profile = () => {
     return (
@@ -30,6 +32,8 @@ const Profile = () => {
                 </div>
             </div>
 
+            <Break></Break>
+            <Time></Time>
         </div>
     );
 };

@@ -13,8 +13,8 @@
     border-radius: 50%;
     background-color: white;
     border: none;
+}
 
-
-
-
+.break-time button:focus {
+    background-color: #08CFFF;
 }

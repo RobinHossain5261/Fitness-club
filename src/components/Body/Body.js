@@ -15,6 +15,11 @@ const Body = () => {
             .then(res => res.json())
             .then(data => setExcreieces(data))
     }, []);
+
+    const addHandelar = () => {
+        console.log('clicked')
+    }
+
     return (
         <div className='main-container'>
             <div>
@@ -26,14 +31,15 @@ const Body = () => {
                         excrieces.map(excriece => <Excreiece
                             key={excriece.id}
                             excriece={excriece}
+                            addHandelar={addHandelar}
                         ></Excreiece>)
                     }
                 </div>
             </div>
             <div className="info-container">
                 <Profile></Profile>
-                <Break></Break>
-                <Time></Time>
+                {/* <Break></Break> */}
+                {/* <Time></Time> */}
             </div>
         </div>
     );
