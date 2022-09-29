@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Break from '../Break/Break';
 import Excreiece from '../Excreiece/Excreiece';
 import Profile from '../Profile/Profile';
+import Time from '../Time/Time';
 
 import './Body.css';
 
@@ -27,6 +28,7 @@ const Body = () => {
             <div className="info-container">
                 <Profile></Profile>
                 <Break></Break>
+                <Time></Time>
             </div>
         </div>
     );

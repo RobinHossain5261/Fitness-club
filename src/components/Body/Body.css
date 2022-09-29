@@ -1,6 +1,7 @@
 .main-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    background-color: rgb(202, 203, 205);
 }
 
 .body-container {
@@ -12,6 +13,7 @@
 }
 
 .info-container {
-    background-color: bisque;
+
     padding: 20px;
+    background-color: #fff;
 }
