@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Body from './components/Body/Body';
+import Blog from './components/Blog/Blog';
 
 
 
@@ -9,6 +10,7 @@ function App() {
     <div>
 
       <Body></Body>
+      <Blog></Blog>
 
     </div>
   );

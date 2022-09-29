@@ -6,7 +6,7 @@ const Break = (props) => {
     const [time, setTime] = useState(0);
     const breakTime = (e) => {
         const newBreakTime = e.target.innerText;
-        setTime('break value:', newBreakTime)
+        setTime(newBreakTime)
     }
     return (
         <div className='break-container'>

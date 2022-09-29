@@ -1,0 +1,7 @@
+.blog-container {
+    width: 80%;
+    margin: 100px auto;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}

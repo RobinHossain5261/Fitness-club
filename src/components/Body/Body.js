@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import Break from '../Break/Break';
 import Header from '../Header/Header';
 import Excreiece from '../Excreiece/Excreiece';
 import Profile from '../Profile/Profile';
-import Time from '../Time/Time';
-
 import './Body.css';
+
 
 const Body = () => {
     const [excrieces, setExcreieces] = useState([]);
@@ -35,6 +33,7 @@ const Body = () => {
                         ></Excreiece>)
                     }
                 </div>
+
             </div>
             <div className="info-container">
                 <Profile></Profile>
