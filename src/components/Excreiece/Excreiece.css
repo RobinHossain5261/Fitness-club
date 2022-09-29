@@ -1,0 +1,14 @@
+.excreiece-container {
+    width: 300px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.excreiece-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.title {
+    color: gray;
+}
