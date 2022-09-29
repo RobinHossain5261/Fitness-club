@@ -3,10 +3,12 @@ import Header from '../Header/Header';
 import Excreiece from '../Excreiece/Excreiece';
 import Profile from '../Profile/Profile';
 import './Body.css';
+import Time from '../Time/Time';
 
 
 const Body = () => {
     const [excrieces, setExcreieces] = useState([]);
+    const [time, setTime] = useState([]);
     useEffect(() => {
 
         fetch('products.json')
@@ -14,8 +16,10 @@ const Body = () => {
             .then(data => setExcreieces(data))
     }, []);
 
-    const addHandelar = () => {
-        console.log('clicked')
+
+    const addHandelar = (excreiece) => {
+        const newTime = [...time, excreiece];
+        setTime(newTime);
     }
 
     return (
@@ -38,7 +42,7 @@ const Body = () => {
             <div className="info-container">
                 <Profile></Profile>
                 {/* <Break></Break> */}
-                {/* <Time></Time> */}
+                <Time time={time}></Time>
             </div>
         </div>
     );

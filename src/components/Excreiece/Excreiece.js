@@ -7,7 +7,6 @@ const Excreiece = (props) => {
     const { addHandelar } = props;
 
 
-
     return (
         <div className='excreiece-container'>
             <img src={img} alt="" />
@@ -16,7 +15,7 @@ const Excreiece = (props) => {
             <p>For Age: {age}</p>
             <p>Time required: {time}s</p>
 
-            <button onClick={addHandelar} className='add-btn'>Add to list</button>
+            <button onClick={() => addHandelar(props.excriece)} className='add-btn'>Add to list</button>
         </div>
     );
 };
